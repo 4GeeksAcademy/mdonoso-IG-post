@@ -1,0 +1,60 @@
+div{
+    border: red solid 1px;
+}
+
+body{
+    background-color: black;
+    font-family: Robot, sans-serif;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 100px;
+}
+
+.post{
+    background-color: white;
+    border: white 2px solid;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.post .cabecera{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.post .titulo{
+    margin 5px auto 5px 5px;
+    display:block;
+}
+
+.post .titulo i{
+    padding-top: 5px;
+    border: black solid 2px;
+}
+
+.post .titulo p{
+    float: right;
+    margin-left: 5px;
+}
+
+.post .imagen img{
+    height: auto;
+    max-width: 100%;
+    box-sizing: content-box;
+    display: block;
+    margin:auto;
+    object-fit: contain;
+}
+
+.pie{
+    margin-top: 2px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
